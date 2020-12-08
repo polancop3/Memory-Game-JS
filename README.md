@@ -15,7 +15,7 @@
   <li>Grid layout for cards</li>
 </ul>
 <h3>The most basic layout should look like the image below</h3>
-<img src="pic_trulli.jpg" alt="Italian Trulli">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1GMKGt2YZWPc7Y0do_Vf_ceWxg5Q2CmnFCg&usqp=CAU" alt="Italian Trulli">
 
 <h1>Instructions</h1>
 <p>click on any two cards.after two cards player 2 clicks on two cards until all cards have been matched</p>
