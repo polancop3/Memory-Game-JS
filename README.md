@@ -19,3 +19,11 @@
 
 <h1>Instructions</h1>
 <p>click on any two cards.after two cards player 2 clicks on two cards until all cards have been matched</p>
+<h1>Unsolved Problems</h1>
+<ul>
+  <li>Unable to lock board so only two cards can be display at a time</li>
+  <li>if same card is click twice it will lock the card since it is a match</li>
+  <li>not responsice due to fixed sizing</li>
+  <li>Need to refresh in order to reset</li>
+  <li>Countdown will go to 0 even if game is won</li>
+</ul>
