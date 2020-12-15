@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="tracker-container">
+        <h3>Timer:&nbsp  </h3>
+        <h3 id="clock">0</h3>
+        <h3 id="score-text">&nbsp&nbsp&nbsp&nbsp Score: &nbsp</h3>
+        <h3 id="scores">0</h3>
+    </div>
+    <h1>NBA Memory Game</h1>
+<!-- we want a container div which will be our board to hold cards -->
+<div id="memory-board">
+<!-- we also want a div for each card on the table
+ which will hold back img and front img of a singlecard -->
+
+<div class="memory-cards" data-logo="lakers">
+    <img class="frontside"src="img/lakers.jpg" alt="">
+    <img class="backside"src="img/nbaLogo.jpg" alt="">
+</div>
+<div class="memory-cards" data-logo="lakers">
+    <img class="frontside"src="img/lakers.jpg" alt="">
+    <img class="backside"src="img/nbaLogo.jpg" alt="">
+    
+</div>
+<div class="memory-cards" data-logo="cavs">
+    <img class="frontside"src="img/cavs.jpg" alt="">
+    <img class="backside"src="img/nbaLogo.jpg" alt="">
+    
+</div>
+<div class="memory-cards" data-logo="cavs">
+    <img class="frontside"src="img/cavs.jpg" alt="">
+    <img class="backside"src="img/nbaLogo.jpg" alt="">   
+</div>
+<div class="memory-cards" data-logo="celtics">
+    <img class="frontside"src="img/celtics.jpg" alt="">
+    <img class="backside"src="img/nbaLogo.jpg" alt="">   
+</div>
+<div class="memory-cards" data-logo="celtics">
+    <img class="frontside"src="img/celtics.jpg" alt="">
+    <img class="backside"src="img/nbaLogo.jpg" alt="">
+</div>
+<div class="memory-cards" data-logo="clippers">
+    <img class="frontside"src="img/clippers.png" alt="">
+    <img class="backside"src="img/nbaLogo.jpg" alt="">  
+</div>
+<div class="memory-cards" data-logo="clippers">
+    <img class="frontside"src="img/clippers.png" alt="">
+    <img class="backside"src="img/nbaLogo.jpg" alt="">  
+</div>
+<div class="memory-cards" data-logo="rockets">
+    <img class="frontside"src="img/rockets.jpg" alt="">
+    <img class="backside"src="img/nbaLogo.jpg" alt="">   
+</div>
+<div class="memory-cards" data-logo="rockets">
+    <img class="frontside"src="img/rockets.jpg" alt="">
+    <img class="backside"src="img/nbaLogo.jpg" alt="">   
+</div>
+<div class="memory-cards" data-logo="spurs">
+    <img class="frontside"src="img/spurs.png" alt="">
+    <img class="backside"src="img/nbaLogo.jpg" alt="">
+</div>
+<div class="memory-cards" data-logo="spurs">
+    <img class="frontside"src="img/spurs.png" alt="">
+    <img class="backside"src="img/nbaLogo.jpg" alt=""> 
+</div>
+<!-- <div class="memory-cards">
+    <img class="frontside"src="img/warriors.jpg" alt="">
+    <img class="backside"src="img/nbaLogo.jpg" alt="">  
+</div>
+<div class="memory-cards">
+    <img class="frontside"src="img/warriors.jpg" alt="">
+    <img class="backside"src="img/nbaLogo.jpg" alt="">
+</div> -->
+</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
