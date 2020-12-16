@@ -8,6 +8,7 @@
   <li>If cards dont match turn them back over</li>
   <li>The game is over when all cards have been matched</li>
   <li>Player with the most card matches win</li>
+  <li>Player VS Time</li>
 </ol>
 
 <h2>Design</h2>
@@ -19,6 +20,7 @@
 
 <h1>Instructions</h1>
 <p>click on any two cards.after two cards player 2 clicks on two cards until all cards have been matched</p>
+
 <h1>Unsolved Problems</h1>
 <ul>
   <li>Unable to lock board so only two cards can be display at a time</li>
