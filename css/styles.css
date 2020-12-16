@@ -25,6 +25,8 @@ background-color: brown;
 
 .frontside{
     position: absolute;
+    /* html elements have a backface with elements mirroring so we hide that face */
+    backface-visibility: hidden;
 }
 
 .frontside{
