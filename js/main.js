@@ -81,8 +81,4 @@ selectcard()
 randomPositioning()
 
 
-function Player2(){
-  
-}
-
 
